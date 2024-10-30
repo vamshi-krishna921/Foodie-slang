@@ -207,3 +207,33 @@ main {
     transform: rotate(360deg);
   }
 }
+.part-2 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 170, 184);
+  & .left {
+    width: 50%;
+    height: 100%;
+    /* background-color: #a93600; */
+    & .circle-out {
+      width: 80%;
+      aspect-ratio: 1;
+      background-color: #c3245488;
+      border-radius: 50%;
+     
+      & .circle-in {
+        width: 96%;
+        aspect-ratio: 1;
+        background-color: rgb(255, 147, 165);
+        border-radius: 50%;
+        position: relative;
+        & img {
+          width: 70%;
+          aspect-ratio: 1;
+          border-radius: 20px;
+          filter: drop-shadow(0px 0px 8px #000);
+        }
+      }
+    }
+  }
+}
