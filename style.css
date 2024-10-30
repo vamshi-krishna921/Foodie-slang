@@ -298,14 +298,14 @@ main {
       }
       &::after {
         position: absolute;
-        content: "Welcome";
+        content: "Love for Food";
         left: 35%;
         top: 50%;
         transform: translate(-50%, -50%);
-        font-size: 6vw;
+        font-size: 4vw;
         font-weight: 700;
         color: transparent;
-        background-image: radial-gradient(circle, #eeeeee, #e5cbed, #f3a0d3, #ff6e9e, #ff3853);        background-size: cover;
+        background-image: radial-gradient(circle,#ff8b9e,#ff5885);        background-size: cover;
         background-position: 100%;
         background-clip: text;
       }
